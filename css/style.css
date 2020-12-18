@@ -73,3 +73,14 @@ img{display: block; max-width: 100%;}
 .swiper-slide img{width: 100%; object-fit: fill;}
 .arrows{display: flex; margin-top: 30px;}
 .arrows .next, .arrows .prev{width: 30px; height: 30px; background: var(--primary); color:#fff; text-align: center; line-height: 30px; margin-right: 15px; outline: none; cursor: pointer;}
+.arrows .next:hover, .arrows .prev:hover{background: var(--second);}
+
+.blog .blog-container {flex-direction: row; display: flex;}
+.blog .blog-container .item{width: 50%; webkit-box-shadow: 0px 1px 3px -1px rgba(87,86,86,0.80); -moz-box-shadow: 0px 1px 3px -1px rgba(87,86,86,0.80); box-shadow: 0px 1px 3px -1px rgba(87,86,86,0.80); margin-right: 30px;}
+.blog .blog-container .item:last-child{margin-right: 0;}
+.blog .blog-container .item .img img{width: 100%;}
+.blog .blog-container .item .text{padding: 15px;}
+.blog .blog-container .item .text h2{text-transform: uppercase; color: var(--primary); font-size: 1em; margin-bottom: 10px;}
+.blog .blog-container .item .text p{color: var(--p); font-size: .9em; margin-bottom: 10px;}
+.blog .blog-container .item .text a{color: var(--primary); font-size: .9em; font-weight: bold;}
+.blog .blog-container .item .text a:hover{color: var(--second);}
