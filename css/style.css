@@ -84,3 +84,6 @@ img{display: block; max-width: 100%;}
 .blog .blog-container .item .text p{color: var(--p); font-size: .9em; margin-bottom: 10px;}
 .blog .blog-container .item .text a{color: var(--primary); font-size: .9em; font-weight: bold;}
 .blog .blog-container .item .text a:hover{color: var(--second);}
+
+.units .map{width: 100%;}
+.units .map iframe{width: 100%; height: 450px;}
