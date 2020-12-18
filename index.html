@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Butterfly Spa</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
 </head>
 <body>
 <!--Header-->
@@ -206,6 +207,51 @@
     </div>
 </div>
 <!--End Services-->
+<!--Products-->
+<div class="products">
+    <div class="container">
+        <div class="row">
+            <div class="title">
+                <img src="assets/titlelogo.png" alt="">
+                <h2>Products</h2>
+               <div class="subtitle">
+                    <p>Buy our products on spc or WhatsApp</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="products-img"></div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets/produtcts1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/produtcts2.png" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/produtcts3.png" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/produtcts4.png" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/produtcts5.png" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/produtcts6.png" alt=""></div>
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="arrows">
+                <div class="next"><i class="fas fa-chevron-left"></i></div>
+                <div class="prev"><i class="fas fa-chevron-right"></i></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End Products-->
 <script src="js/all.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      loop:true,
+      slidesPerView:3,
+      spaceBetween: 0,
+      navigation: {
+        nextEl: '.next',
+        prevEl: '.prev',
+      },
+    });
+  </script>
 </body>
 </html>
