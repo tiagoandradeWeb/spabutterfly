@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Butterfly Spa</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/swiper.min.css">
 </head>
 <body>
@@ -20,18 +21,20 @@
         <div class="row">
             <div class="nav-bar">
                 <div class="logo">
-                    <img src="assets/logo.png" alt="">
+                    <a href="#home"><img src="assets/logo.png" alt=""></a>
                 </div>
                 <nav class="nav">
                     <ul>
-                        <li><a href="#home">HOME</a></li>
-                        <li><a href="#home">ABOUT</a></li>
-                        <li><a href="#home">SERVICES</a></li>
-                        <li><a href="#home">PRODUCTS</a></li>
-                        <li><a href="#home">UNITS</a></li>
-                        <li><a href="#home">CONTACT</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#products">PRODUCTS</a></li>
+                        <li><a href="#units">UNITS</a></li>
+                        <li><a href="#testimony">TESTIMONY</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
                     </ul>
                 </nav>
+                <li class="btn-mobile"><i class="fas fa-bars"></i></li>
             </div>
         </div>
         <div class="row">
@@ -67,7 +70,7 @@
 </div>
 <!--End Social-->
 <!--About-->
-<div class="about">
+<div class="about" id="about">
     <div class="container">
         <div class="row">
             <div class="title">
@@ -88,7 +91,7 @@
 </div>
 <!--End About-->
 <!--Services-->
-<div class="services">
+<div class="services" id="services">
     <div class="container">
         <div class="row">
             <div class="title">
@@ -208,7 +211,7 @@
 </div>
 <!--End Services-->
 <!--Products-->
-<div class="products">
+<div class="products" id="products">
     <div class="container">
         <div class="row">
             <div class="title">
@@ -241,7 +244,7 @@
 </div>
 <!--End Products-->
 <!--Blog-->
-<div class="blog">
+<div class="blog" id="blog">
     <div class="container">
         <div class="row">
             <div class="title">
@@ -281,7 +284,7 @@
 </div>
 <!--End Blog-->
 <!--Units-->
-<div class="units">
+<div class="units" id="units">
     <div class="container">
         <div class="row">
             <div class="title">
@@ -301,7 +304,7 @@
 </div>
 <!--End Units-->
 <!--Testimony-->
-<div class="testimony">
+<div class="testimony" id="testimony">
     <div class="container">
         <div class="row">
             <div class="title">
@@ -334,7 +337,7 @@
 </div>
 <!--End Testimony-->
 <!--Contact-->
-<div class="contact">
+<div class="contact" id="contact">
     <div class="container">
         <div class="row">
             <div class="title">
@@ -373,11 +376,11 @@
                   <div class="col select">
                        <select name="subject" id="subject">
                            <option>Reservation</option>
-                           <option>Reimbursement</option>
+                           <option value="Reimbursement">Reimbursement</option>
                            <option>Products</option>
                            <option>Reservation</option>
                        </select>
-                       <label for="subject">Subject matter <span><i class="fas fa-sort-down"></i></span> </label>
+                       <label for="">Subject matter <span><i class="fas fa-sort-down"></i></span> </label>
                    </div>
                </div>
                <div class="form-group">
@@ -409,6 +412,8 @@
         </div>
     </div>
 </footer>
+<div class="btn-up"><i class="fas fa-arrow-alt-circle-up"></i></div>
+<script src="js/main.js"></script>
 <script src="js/all.min.js"></script>
 <script src="js/swiper.min.js"></script>
 <script>

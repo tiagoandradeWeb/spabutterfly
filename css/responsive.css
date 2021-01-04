@@ -1,0 +1,56 @@
+@media (max-width: 1186px){
+    .img-leaf{left: -30px;}
+}
+
+@media (max-width: 1132px){
+     .img-leaf{left: -50px;}
+}
+
+@media (max-width: 1144px){
+     .blog .blog-container .item .text h2{font-size: .9em;}
+}
+
+@media (max-width: 960px){
+     .blog .blog-container .item .text h2{font-size: .8em;}
+     .contact-container .form-box p{width: 100%;}
+     .img-model{right: -30px;}
+}
+
+@media (max-width: 880px){
+     .blog .blog-container .item .text h2{font-size: .7em;}
+     .blog .blog-container .item .text h2{font-size: .7em;}
+     .contact-container .form-box{width: 90%;}
+     .img-model{right: -90px;}
+}
+
+@media (max-width: 790px){
+    .btn-mobile{display: block;}
+    .nav, .img-leaf, .img-model{display: none;}
+    .slider{width: 100%; margin-top: 70px; text-align: center; justify-content: center; align-items: center;}
+    .social-networks .container{justify-content: center;}
+    .social-networks .container .social-icons{display: none;}
+    .services-container{flex-wrap: wrap; justify-content: center;}
+    .services-container .item{width:60%; margin-right: 0; margin-bottom: 30px;}
+    .blog .blog-container{flex-direction: column; justify-content: center; align-items: center;}
+    .blog .blog-container .item{width: 80%; margin-bottom: 30px; margin-right: 0;}
+    .contact-container .form-box{width: 90%;}
+    
+}
+
+@media (max-width: 600px){
+    .slider h1{font-size: 45px;}
+    .slider p{line-height: 30px; font-size: .8em;}
+    .social-networks .container .text p{font-size: .7em;}
+    footer .container .row p{font-size: .8em;}
+    footer .container .row .social-icons .icon{width: 30px; height: 30px;}
+}
+
+@media (max-width: 530px){
+    .slider h1{font-size: 35px;}
+    .slider p{line-height: 20px; font-size: .8em;}
+    .about .about-text p{font-size: .8em;}
+    .services-container .item{width:90%;}
+    .contact-container .form-box p{font-size: .8em;}
+    .form-group{flex-direction: column;}
+    .form-group .col{width: 100%; margin-right: 0px;}
+    .contact-container .form-box{padding: 30px; margin-top: -70px;
