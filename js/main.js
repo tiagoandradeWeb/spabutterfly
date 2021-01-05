@@ -18,5 +18,15 @@ function backToTop(){
        document.documentElement.scrollTop = 0; 
     });
 }
+function menuMobile(){
+    const btn = document.querySelector(".btn-mobile");
+    const nav = document.querySelector(".nav");
+    console.log(btn);
+    
+    btn.addEventListener('click', function(){
+                         nav.classList.toggle("mobile");
+                         });
+}
 
 backToTop();
+menuMobile();
