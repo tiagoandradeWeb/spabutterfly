@@ -46,10 +46,13 @@
 }
 
 @media (max-width: 530px){
+    .subtitle{font-size: .8em;}
     .slider h1{font-size: 35px;}
     .slider p{line-height: 20px; font-size: .8em;}
+    .social-networks .container .text p{font-size: .7em;}
     .about .about-text p{font-size: .8em;}
-    .services-container .item{width:90%;}
+    .services-container .item{width:100%;}
+    .blog .blog-container .item{width: 100%;}
     .contact-container .form-box p{font-size: .8em;}
     .form-group{flex-direction: column;}
     .form-group .col{width: 100%; margin-right: 0px;}
